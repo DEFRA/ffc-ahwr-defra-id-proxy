@@ -1,0 +1,3 @@
+{{- include "ffc-helm-library.azure-ingress" (list . "ffc-ahwr-defra-id-proxy.ingress") -}}
+{{- define "ffc-ahwr-defra-id-proxy.ingress" -}}
+{{- end -}}
