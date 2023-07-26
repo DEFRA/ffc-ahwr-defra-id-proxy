@@ -1,9 +1,9 @@
 environment: production
 environmentCode:
-name: ffc-template-node
-namespace: ffc-demo
-workstream: ffc-demo
-image: ffc-template-node
+name: ffc-ahwr-defra-id-proxy
+namespace: ffc-ahwr
+workstream: ffc-ahwr
+image: ffc-ahwr-defra-id-proxy
 
 labels:
   component: service
@@ -12,10 +12,10 @@ appInsights:
   connectionString:
 
 containerConfigMap:
-  name: ffc-template-node-config-map
+  name: ffc-ahwr-defra-id-proxy-config-map
 
 containerSecret:
-  name: ffc-template-node-container-secret
+  name: ffc-ahwr-defra-id-proxy-container-secret
   type: Opaque
 
 deployment: {}
