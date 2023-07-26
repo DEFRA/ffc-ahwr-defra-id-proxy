@@ -20,6 +20,11 @@ containerSecret:
 
 deployment: {}
 
+ingress:
+  class: nginx
+  endpoint: ffc-ahwr-defra-id-proxy
+  server: example.com
+
 container:
   requestMemory: 100Mi
   requestCpu: 100m
