@@ -1,6 +1,6 @@
 {
   "name": "ffc-ahwr-defra-id-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Proxy service to support defra id login on dynamic sandbox environments",
   "homepage": "https://github.com/DEFRA/ffc-ahwr-defra-id-proxy",
   "main": "app/index.js",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "jest": "29.2.2",
     "jest-junit": "14.0.1",
-    "nodemon": "2.0.20",
+    "nodemon": "^3.0.1",
     "standard": "17.0.0"
   },
   "standard": {
